@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",           // ✅ 수정!
+    "module": "ES2022",           // ✅ 같이 바꾸면 더 안정적!
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "types": ["@types/node"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["."]
+}
